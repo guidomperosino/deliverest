@@ -2,3 +2,4 @@
 settings_local.py
 *.json
 db.sqlite3
+myvenv
