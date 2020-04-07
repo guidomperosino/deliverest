@@ -179,7 +179,7 @@ MEDIA_ROOT = '/home/juan/Documentos/dev/deliverest_media'
 
 
 # Import local configurations
-from settings_local import *
+from .settings_local import *
 
 
 CONSTANCE_CONFIG = OrderedDict([

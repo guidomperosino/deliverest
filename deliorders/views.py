@@ -99,7 +99,7 @@ def cart(request, *args, **kwargs):
                         item.quantity = val
                         item.save()
                 if "comment_" in mod:
-                    val = unicode(request.POST[mod])
+                    val = request.POST[mod]
                     item.comments = val
                     item.save()
         o.save()
